@@ -9,7 +9,7 @@ jobs:
            git config --global user.name "RooGhz720"
            git config --global user.email "Rooghz720@gmail.com"
            git config --global color.ui false
-           git clone --depth=1 https://github.com/RooGhz720/miui_surya_kernel -b Q .
+           git clone --depth=1 https://github.com/RooGhz720/memeui_surya_kernel -b Q .
            bash .circleci/build.sh
 workflows:
   version: 2.1
