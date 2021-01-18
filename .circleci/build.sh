@@ -3,7 +3,7 @@ echo "Cloning dependencies"
 git clone --depth=1 https://github.com/RooGhz720/Compiler-LLVM  clang
 git clone https://github.com/RooGhz720/Compiler-LLVM -b gcc64 --depth=1 gcc
 git clone https://github.com/RooGhz720/Compiler-LLVM -b gcc32  --depth=1 gcc32
-git clone --depth=1 https://github.com/RooGhz720/Anykernel3 AnyKernel
+git clone --depth=1 https://github.com/RooGhz720/Anykernel3 -b Ability-M AnyKernel
 echo "Done"
 IMAGE=$(pwd)/out/arch/arm64/boot/Image.gz-dtb
 TANGGAL=$(date +"%F-%S")
