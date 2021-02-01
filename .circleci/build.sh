@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo "Cloning dependencies"
-git clone --depth=1 https://github.com/RooGhz720/Compiler-LLVM  clang
+git clone --depth=1 https://github.com/kdrag0n/proton-clang  clang
 git clone https://github.com/RooGhz720/Compiler-LLVM -b gcc64 --depth=1 gcc
 git clone https://github.com/RooGhz720/Compiler-LLVM -b gcc32  --depth=1 gcc32
 git clone --depth=1 https://github.com/RooGhz720/Anykernel3 -b Ability-M AnyKernel
